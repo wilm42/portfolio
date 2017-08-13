@@ -36,9 +36,8 @@ function closeServer() {
     });
 }
 
-if (require.main === module) {
-    runServer();
-}
+
+runServer();
 
 module.exports = {
     app, runServer, closeServer
