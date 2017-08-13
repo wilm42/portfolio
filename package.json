@@ -1,5 +1,5 @@
 {
-  "name": "thinkful-full-stack-template-v2",
+  "name": "full-stack-template",
   "version": "0.1.0",
   "description": "A full-stack starter template",
   "main": "index.js",
@@ -18,13 +18,13 @@
     "server/node_modules",
     "client/node_modules"
   ],
-  "author": "Joe Turner <jturner@thinkful.com>",
+  "author": "William Martin",
   "license": "MIT",
   "dependencies": {
-    "cross-env": "^3.1.4",
-    "express": "^4.14.1",
-    "http-proxy-middleware": "^0.17.3",
-    "npm-run-all": "^4.0.1",
+    "cross-env": "^5.0.5",
+    "express": "^4.15.4",
+    "http-proxy-middleware": "^0.17.4",
+    "npm-run-all": "^4.0.2",
     "xp": "^1.0.1"
   }
 }
