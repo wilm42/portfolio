@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="808px" height="308px" viewBox="0 0 808 308" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>techGrid</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="30.0463855%" cy="17.6653646%" fx="30.0463855%" fy="17.6653646%" r="100%" gradientTransform="translate(0.300464,0.176654),scale(0.375000,1.000000),rotate(90.000000),translate(-0.300464,-0.176654)" id="radialGradient-1">
+            <stop stop-color="#75DBCD" offset="0%"></stop>
+            <stop stop-color="#C04CFD" offset="100%"></stop>
+        </radialGradient>
+        <rect id="path-2" x="1" y="0" width="800" height="300"></rect>
+        <filter x="-0.9%" y="-1.7%" width="101.8%" height="104.7%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <radialGradient cx="81.6054702%" cy="70.26875%" fx="81.6054702%" fy="70.26875%" r="100%" gradientTransform="translate(0.816055,0.702688),scale(0.647059,1.000000),rotate(90.000000),translate(-0.816055,-0.702688)" id="radialGradient-4">
+            <stop stop-color="#75DBCD" offset="0%"></stop>
+            <stop stop-color="#C04CFD" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="tech" transform="translate(-109.000000, -189.000000)">
+            <g transform="translate(112.000000, 191.000000)" id="techGrid">
+                <g>
+                    <g id="Gradient">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                        <use fill="url(#radialGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                    </g>
+                    <rect id="Rectangle-6" fill="#2E0444" x="1" y="1" width="296" height="299"></rect>
+                    <rect id="Frame" stroke="#2E0444" stroke-width="5" x="2.5" y="2.5" width="796" height="295"></rect>
+                    <text id="I’ll-never-blame-my" fill="url(#radialGradient-4)" font-family="Comfortaa-Bold, Comfortaa" font-size="60" font-weight="bold" line-spacing="77" letter-spacing="0.945313156">
+                        <tspan x="10" y="107">I’ll never </tspan>
+                        <tspan x="10" y="184">blame</tspan>
+                        <tspan x="10" y="261">my tools.</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

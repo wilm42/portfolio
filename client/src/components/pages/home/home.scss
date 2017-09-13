@@ -71,6 +71,10 @@ h2.tagline{
     opacity: 1;
     transition: .3s ease-in-out;
   }
+  &.show{
+    opacity: 1;
+    transition: 1s ease-in-out;
+  }
 }
 
 @keyframes arrowTop{

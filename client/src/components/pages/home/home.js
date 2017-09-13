@@ -1,17 +1,25 @@
 import React from 'react';
+import { connect } from 'react-redux';
+import * as actions from '../../../redux/actions';
 
 import Gradient from './gradient';
 
 import './home.css';
 
-export default class Home extends React.Component{
+export class Home extends React.Component{
+
+  componentWillMount(){
+    const { dispatch } = this.props;
+    dispatch(actions.pageLoad('home'));
+  }
+
   render(){
     return(
       <main className="home container">
 
         <header className="home container">
           <div className="ship container">
-            <img src="./assets/ufo.svg"/>
+            <img alt="ufo logo" src="./assets/ufo.svg"/>
           </div>
           <div className="text container">
             <h1 className="name">
@@ -30,3 +38,5 @@ export default class Home extends React.Component{
     );
   }
 }
+
+export default connect()(Home);

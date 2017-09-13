@@ -1,0 +1,25 @@
+.cards {
+  width: 100%;
+  justify-content: space-between; }
+
+.skill-card {
+  background: #2E0444;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  width: fit-content;
+  height: 360px;
+  flex-direction: column; }
+
+img {
+  height: fit-content;
+  width: fit-content; }
+
+.develop {
+  margin-top: -20px; }
+
+p.skill {
+  box-sizing: border-box;
+  width: 260px;
+  font-family: 'comfortaa-reg';
+  font-size: 16px;
+  padding: 10px;
+  line-height: 1.3; }

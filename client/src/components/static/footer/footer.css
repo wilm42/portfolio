@@ -1,0 +1,20 @@
+footer {
+  color: #2E0444;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  padding: 5px;
+  font-family: 'comfortaa-reg';
+  font-size: 10px;
+  background: rgba(192, 76, 253, 0.7);
+  width: 100%;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.links {
+  margin-top: 5px;
+  width: 50px;
+  justify-content: space-around; }

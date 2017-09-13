@@ -10,6 +10,17 @@ export default class Gradient extends React.Component{
     }
   }
 
+  componentWillMount(){
+    setTimeout(()=> {
+      try{
+        this.hoverBlock.className = 'gridNav container show'
+      }
+      catch(e){
+        return;
+      }
+    }, 5000)
+  }
+
   gradientFollow(e){
     let grid = this.grid;
     let x = Math.ceil(((e.screenX - grid.offsetLeft) / grid.offsetWidth) * 100);
@@ -29,12 +40,12 @@ export default class Gradient extends React.Component{
           background:`radial-gradient(circle 600px at ${this.state.x}% ${this.state.y}%, #75DBCD 20%, #C04CFD 100%)`
         }}>
           <Link to="/skills">
-            <div className="gridNav container">
-              <img className="top" src="./assets/gridNav.svg"/>
-              <img className="bottom" src="./assets/gridNav.svg"/>
+            <div className="gridNav container" ref={hoverBlock=> this.hoverBlock = hoverBlock}>
+              <img alt="navigation arrow top" className="top" src="./assets/gridNav.svg"/>
+              <img alt="navigation arrow bottom" className="bottom" src="./assets/gridNav.svg"/>
             </div>
           </Link>
-          <img src="./assets/Grid.svg"/>
+          <img alt="grid" src="./assets/Grid.svg"/>
 
       </div>
     );

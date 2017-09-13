@@ -7,6 +7,7 @@
 	background: radial-gradient(ellipse at bottom, #C04CFD 0%, #2E0444 100%);
 	overflow:hidden;
 	color: white;
+	flex-direction:column;
 }
 
 @font-face{
@@ -23,11 +24,14 @@
 }
 
 main{
-	width:1024px;
+	width:100%;
+	max-width:800px;
+	height:100%;
 	margin-left:auto;
 	margin-right:auto;
 	padding-top:30px;
 	flex-direction:column;
 	z-index:1;
+	align-items: center;
 }
 	
