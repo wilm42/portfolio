@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="239px" height="50px" viewBox="0 0 239 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>devCupid</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="81.6054702%" cy="70.26875%" fx="81.6054702%" fy="70.26875%" r="100%" gradientTransform="translate(0.816055,0.702688),scale(0.259109,1.000000),rotate(90.000000),translate(-0.816055,-0.702688)" id="radialGradient-1">
+            <stop stop-color="#75DBCD" offset="0%"></stop>
+            <stop stop-color="#C04CFD" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-weight="bold" font-family="Comfortaa-Bold, Comfortaa" letter-spacing="0.756250024" font-size="48">
+        <g id="work" transform="translate(-192.000000, -366.000000)" fill="url(#radialGradient-1)">
+            <g id="devCupid" transform="translate(122.000000, 186.000000)">
+                <text>
+                    <tspan x="67.0189999" y="218">devCupid</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

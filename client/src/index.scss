@@ -3,7 +3,7 @@
 }
 .super{
 	width:100vw;
-	height:100vh;
+	min-height:100vh;
 	background: radial-gradient(ellipse at bottom, #C04CFD 0%, #2E0444 100%);
 	overflow:hidden;
 	color: white;

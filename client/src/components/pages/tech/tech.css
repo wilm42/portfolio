@@ -30,4 +30,7 @@
 .logo {
   width: 20%;
   height: 100%;
-  border: solid 2.5px #2E0444; }
+  border: solid 2.5px #2E0444;
+  display: flex; }
+  .logo img {
+    margin: auto; }

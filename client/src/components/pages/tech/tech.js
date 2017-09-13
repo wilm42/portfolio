@@ -23,53 +23,53 @@ export class Tech extends React.Component{
             <div className="software container">
               <div className="row">
                 <div className="logo">
-
+                  <img src="./assets/tech-logos/react.svg" />
                 </div>
                 <div className="logo">
-
+                  <img src="./assets/tech-logos/javascript.svg" />
                 </div>
                 <div className="logo">
-
+                  <img src="./assets/tech-logos/sketch-2.svg" />
                 </div>
                 <div className="logo">
-
+                  <img src="./assets/tech-logos/Git.svg" />
                 </div>
                 <div className="logo">
-
+                  <img src="./assets/tech-logos/adobe-illustrator-cc.svg" />
                 </div>
               </div>
               <div className="row middle">
                 <div className="logo">
-
+                  <img src="./assets/tech-logos/redux.svg" />
                 </div>
                 <div className="logo">
-
+                  <img src="./assets/tech-logos/Node.svg" />
                 </div>
                 <div className="logo">
-
+                  <img src="./assets/tech-logos/bootstrap-4.svg" />
                 </div>
                 <div className="logo">
-
+                  <img src="./assets/tech-logos/zeplin.svg" />
                 </div>
                 <div className="logo">
-
+                  <img src="./assets/tech-logos/mongodb.svg" />
                 </div>
               </div>
               <div className="row">
                 <div className="logo">
-
+                  <img src="./assets/tech-logos/python-5.svg" />
                 </div>
                 <div className="logo">
-
+                  <img src="./assets/tech-logos/django.svg" />
                 </div>
                 <div className="logo">
-
+                  <img src="./assets/tech-logos/postgresql.svg" />
                 </div>
                 <div className="logo">
-
+                  <img src="./assets/tech-logos/github-icon.svg" />
                 </div>
                 <div className="logo">
-
+                  <img src="./assets/tech-logos/photoshop-cc.svg" />
                 </div>
               </div>
             </div>

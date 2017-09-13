@@ -11,10 +11,16 @@ footer {
   background: rgba(192, 76, 253, 0.7);
   width: 100%;
   max-width: 800px;
+  margin-top: auto;
   margin-left: auto;
   margin-right: auto; }
 
 .links {
   margin-top: 5px;
   width: 50px;
-  justify-content: space-around; }
+  justify-content: space-around;
+  transition: .1s ease-in; }
+  .links a:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: .1s ease-in; }

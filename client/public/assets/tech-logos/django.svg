@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="63px" height="78px" viewBox="0 0 63 78" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>django</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-12.7%" y="-7.1%" width="125.5%" height="120.0%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="tech" transform="translate(-528.000000, -403.000000)" fill-rule="nonzero" fill="#2BA977">
+            <g transform="translate(112.000000, 191.000000)" id="tech-logos">
+                <g transform="translate(312.000000, 16.000000)">
+                    <g id="django" filter="url(#filter-1)" transform="translate(108.000000, 198.000000)">
+                        <path d="M24.6468712,0 L36.0869325,0 L36.0869325,52.4336503 C30.2271166,53.5420552 25.9133129,53.9781595 21.2458589,53.9781595 C7.27334356,53.9635583 0,47.721319 0,35.732638 C0,24.1815644 7.71503067,16.684908 19.6704294,16.684908 C21.5256442,16.684908 22.9389571,16.8309202 24.6468712,17.2683129 L24.6468712,0 Z M25.0477607,26.717454 C23.7078834,26.2798466 22.603773,26.1340491 21.1902454,26.1340491 C15.4040798,26.1340491 12.0619018,29.6634663 12.0619018,35.8488037 C12.0619018,41.8709509 15.2569939,45.1961656 21.1168098,45.1961656 C22.3828221,45.1961656 23.4134969,45.1248773 25.0477607,44.9060736 L25.0477607,26.717454 Z" id="Shape"></path>
+                        <path d="M54.7947546,18.092638 L54.7947546,44.3454294 C54.7947546,53.3863804 54.1175153,57.7341104 52.129816,61.482546 C50.2746012,65.0862577 47.8306135,67.358681 42.7805215,69.868589 L32.165,64.8661656 C37.215092,62.5192331 39.6590798,60.4454294 41.219908,57.2806135 C42.8539571,54.0442945 43.3692945,50.2958589 43.3692945,40.4365951 L43.3692945,18.0928528 L54.7947546,18.0928528 L54.7947546,18.092638 Z M42.2164417,0 L53.6565031,0 L53.6565031,11.6240798 L42.2164417,11.6240798 L42.2164417,0 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="380px" height="247px" viewBox="0 0 380 247" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>work-card-bg</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="-16.7869678%" y1="100%" x2="125.754833%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#75DBCD" stop-opacity="0.854789402" offset="0%"></stop>
+            <stop stop-color="#B463F6" offset="100%"></stop>
+            <stop stop-color="#B95AF9" offset="100%"></stop>
+            <stop stop-color="#C04CFD" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="work" transform="translate(-122.000000, -186.000000)" fill="url(#linearGradient-1)">
+            <g id="devCupid" transform="translate(122.000000, 186.000000)">
+                <rect id="work-card-bg" x="0" y="0" width="380" height="247"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

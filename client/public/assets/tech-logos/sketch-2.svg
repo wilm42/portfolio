@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="85px" height="78px" viewBox="0 0 85 78" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>sketch-2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-9.1%" y="-7.1%" width="119.0%" height="121.4%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="tech" transform="translate(-626.000000, -205.000000)" fill-rule="nonzero">
+            <g transform="translate(112.000000, 191.000000)" id="tech-logos">
+                <g transform="translate(312.000000, 16.000000)">
+                    <g id="sketch-2" filter="url(#filter-1)" transform="translate(206.000000, 0.000000)">
+                        <g id="a-link" transform="translate(0.138372, 25.151977)" fill="#EA6C00">
+                            <polygon id="a" points="15.5717442 0 38.4438372 44.7674419 0 0"></polygon>
+                        </g>
+                        <g id="b-link" transform="translate(57.497674, 47.535698) scale(-1, 1) translate(-57.497674, -47.535698) translate(37.962791, 25.151977)" fill="#EA6C00">
+                            <polygon id="b" points="15.5717442 0 38.4438372 44.7674419 0 0"></polygon>
+                        </g>
+                        <g id="c-link" transform="translate(15.709302, 25.151977)" fill="#FDAD00">
+                            <polygon id="c" points="0 0 45.744186 0 22.872093 44.7674419"></polygon>
+                        </g>
+                        <g id="d-link" transform="translate(15.709302, 0.341860)" fill="#FDD231">
+                            <polygon id="d" points="22.872093 0 1.20383721 2.29046512 0 24.8101163"></polygon>
+                        </g>
+                        <g id="e-link" transform="translate(49.651163, 12.958140) scale(-1, 1) translate(-49.651163, -12.958140) translate(37.848837, 0.341860)" fill="#FDD231">
+                            <polygon id="e" points="22.872093 0 1.20383721 2.29046512 0 24.8101163"></polygon>
+                        </g>
+                        <g id="f-link" transform="translate(68.486047, 14.027674) scale(-1, 1) translate(-68.486047, -14.027674) translate(59.939535, 2.632326)" fill="#FDAD00">
+                            <polygon id="f" points="0 22.5196512 16.7755814 0 15.5717442 22.5196512"></polygon>
+                        </g>
+                        <g id="g-link" transform="translate(0.138372, 2.632326)" fill="#FDAD00">
+                            <polygon id="g" points="0 22.5196512 16.7755814 0 15.5717442 22.5196512"></polygon>
+                        </g>
+                        <g id="h-link" transform="translate(15.709302, 0.341860)" fill="#FEEEB7">
+                            <polygon id="h" points="22.872093 0 0 24.8101163 45.744186 24.8101163"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
