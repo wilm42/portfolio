@@ -14,10 +14,10 @@ export class Footer extends React.Component{
         <div>handcrafted by william martin © 2017 | ufo icon created by Kaylen from the <a href="https://nounproject.org">noun project</a>.</div>
         <div className="links container">
           <a href="https://www.linkedin.com/in/william-martin-220667104/">
-            <img src="./assets/linkedin-footer.svg" alt="linkedIn" />
+            <img src="./assets/footer/linkedin-footer.svg" alt="linkedIn" />
           </a>
           <a href="https://github.com/williamtwobit">
-            <img src="./assets/github-footer.svg" alt="gitHub" />
+            <img src="./assets/footer/github-footer.svg" alt="gitHub" />
           </a>
         </div>
       </footer>
