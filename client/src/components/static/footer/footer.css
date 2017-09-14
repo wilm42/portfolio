@@ -23,4 +23,5 @@ footer {
   .links a:hover {
     cursor: pointer;
     transform: scale(1.1);
-    transition: .1s ease-in; }
+    transition: .1s ease-in;
+    margin: 5px; }
