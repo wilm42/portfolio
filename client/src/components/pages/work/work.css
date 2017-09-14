@@ -1,7 +1,6 @@
 .work-cards {
   flex-wrap: wrap;
-  justify-content: space-between;
-  overflow-y: scroll; }
+  justify-content: space-between; }
 
 .gradient {
   height: 162px;

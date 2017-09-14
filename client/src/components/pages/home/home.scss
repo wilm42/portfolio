@@ -19,6 +19,9 @@ header.home{
   margin-right: auto;
   margin-bottom:20px;
   justify-content: space-between;
+  img{
+    animation: ufoHover 1s infinite;
+  }
 }
 
 .text{
@@ -107,5 +110,15 @@ h2.tagline{
   }
   100% {
     transform: scale(1);
+  }
+}
+
+@keyframes ufoHover{
+  50% {
+    transition: .2s ease-out;
+    transform: translateY(1px);
+  }
+  90% {
+    transform: translateY(-1px);
   }
 }
