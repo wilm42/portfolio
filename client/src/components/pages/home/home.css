@@ -1,3 +1,58 @@
+@keyframes comeDown {
+  0% {
+    margin-top: -200px; }
+  100% {
+    margin-top: initial; } }
+
+@keyframes flyUp {
+  0% {
+    margin-top: initial; }
+  100% {
+    margin-top: -200px; } }
+
+@keyframes ufoHover {
+  50% {
+    transition: .2s ease-out;
+    transform: translateY(1px); }
+  90% {
+    transform: translateY(-1px); } }
+
+@keyframes arrowTop {
+  0% {
+    transform: scale(1); }
+  45% {
+    transform: scale(1.2); }
+  40% {
+    transform: scale(1.2); }
+  90% {
+    transform: scale(1); }
+  100% {
+    transform: scale(1); } }
+
+@keyframes arrowBottom {
+  0% {
+    transform: scale(1); }
+  50% {
+    transform: scale(1.2); }
+  90% {
+    transform: scale(1); }
+  100% {
+    transform: scale(1); } }
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    margin-right: -500px; }
+  100% {
+    opacity: 1;
+    margin-right: initial; } }
+
 .bold {
   font-family: 'Comfortaa', cursive;
   font-weight: 700; }
@@ -21,17 +76,19 @@ header.home {
   margin-bottom: 20px;
   justify-content: space-between; }
   header.home img {
-    animation: ufoHover 1s infinite; }
+    animation: comeDown 2s, ufoHover 1s infinite; }
 
 .text {
   flex-direction: column; }
 
 h1.name {
-  font-size: 64px; }
+  font-size: 64px;
+  animation: fadeIn 2s; }
 
 h2.tagline {
   font-size: 20px;
-  text-align: right; }
+  text-align: right;
+  animation: fadeIn 2s; }
 
 .grid {
   background: radial-gradient(circle 600px at 70% 60%, #75DBCD 20%, #C04CFD 100%);
@@ -40,7 +97,8 @@ h2.tagline {
   margin-right: auto;
   width: 800px;
   height: 500px;
-  position: relative; }
+  position: relative;
+  animation: fadeIn 2s; }
 
 .gridNav {
   position: absolute;
@@ -69,32 +127,3 @@ h2.tagline {
   .gridNav.show {
     opacity: 1;
     transition: 1s ease-in-out; }
-
-@keyframes arrowTop {
-  0% {
-    transform: scale(1); }
-  45% {
-    transform: scale(1.2); }
-  40% {
-    transform: scale(1.2); }
-  90% {
-    transform: scale(1); }
-  100% {
-    transform: scale(1); } }
-
-@keyframes arrowBottom {
-  0% {
-    transform: scale(1); }
-  50% {
-    transform: scale(1.2); }
-  90% {
-    transform: scale(1); }
-  100% {
-    transform: scale(1); } }
-
-@keyframes ufoHover {
-  50% {
-    transition: .2s ease-out;
-    transform: translateY(1px); }
-  90% {
-    transform: translateY(-1px); } }

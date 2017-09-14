@@ -16,10 +16,9 @@ export class Home extends React.Component{
   render(){
     return(
       <main className="home container" id="home">
-
         <header className="home container">
           <div className="ship container">
-            <img alt="ufo logo" src="./assets/ufo.svg"/>
+            <img ref={ufo => this.ufo = ufo} alt="ufo logo" src="./assets/ufo.svg"/>
           </div>
           <div className="text container">
             <h1 className="name">

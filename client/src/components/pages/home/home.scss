@@ -1,3 +1,5 @@
+@import './_animations.scss';
+
 .bold{
   font-family: 'Comfortaa', cursive;
   font-weight: 700;
@@ -23,7 +25,7 @@ header.home{
   margin-bottom:20px;
   justify-content: space-between;
   img{
-    animation: ufoHover 1s infinite;
+    animation: comeDown 2s, ufoHover 1s infinite;
   }
 }
 
@@ -33,11 +35,13 @@ header.home{
 
 h1.name{
   font-size:64px;
+  animation: fadeIn 2s;
 }
 
 h2.tagline{
   font-size: 20px;
   text-align: right;
+  animation: fadeIn 2s;
 }
 
 .grid{
@@ -48,6 +52,7 @@ h2.tagline{
   width:800px;
   height:500px;
   position:relative;
+  animation: fadeIn 2s;
 }
 
 .gridNav{
@@ -80,48 +85,5 @@ h2.tagline{
   &.show{
     opacity: 1;
     transition: 1s ease-in-out;
-  }
-}
-
-@keyframes arrowTop{
-  0% {
-    transform: scale(1);
-  }
-  45% {
-    transform: scale(1.2);
-  }
-  40% {
-    transform: scale(1.2);
-  }
-  90% {
-    transform: scale(1);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
-
-@keyframes arrowBottom{
-  0% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.2);
-  }
-  90% {
-    transform: scale(1);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
-
-@keyframes ufoHover{
-  50% {
-    transition: .2s ease-out;
-    transform: translateY(1px);
-  }
-  90% {
-    transform: translateY(-1px);
   }
 }
