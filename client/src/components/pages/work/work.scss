@@ -24,7 +24,8 @@
   height: 250px;
   flex-direction:column;
   align-content: center;
-  font-family: 'comfortaa-regular';
+  font-family: 'Comfortaa', cursive;
+  font-weight: 400;
   opacity:0;
   transition: .3s ease-in-out;
   p{
@@ -40,7 +41,8 @@
     color: $Dk-Purple;
     z-index:5;
     a{
-      font-family: 'comfortaa-bold';
+      font-family: 'Comfortaa', cursive;
+      font-weight: 700;
       &:hover{
         text-decoration: underline;
       }

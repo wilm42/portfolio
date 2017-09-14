@@ -9,18 +9,6 @@
   flex-direction: column;
   overflow-x: hidden; }
 
-@font-face {
-  font-family: 'comfortaa-bold';
-  src: url("/Comfortaa/Comfortaa-Bold.ttf"); }
-
-@font-face {
-  font-family: 'comfortaa-thin';
-  src: url("/Comfortaa/Comfortaa-Light.ttf"); }
-
-@font-face {
-  font-family: 'comfortaa-reg';
-  src: url("/Comfortaa/Comfortaa-Regular.ttf"); }
-
 main {
   width: 100%;
   max-width: 800px;

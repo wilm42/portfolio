@@ -1,11 +1,14 @@
 .bold {
-  font-family: 'comfortaa-bold'; }
+  font-family: 'Comfortaa', cursive;
+  font-weight: 700; }
 
 .reg {
-  font-family: 'comfortaa-reg'; }
+  font-family: 'Comfortaa', cursive;
+  font-weight: 400; }
 
 .thin {
-  font-family: 'comfortaa-thin'; }
+  font-family: 'Comfortaa', cursive;
+  font-weight: 300; }
 
 img {
   height: fit-content; }

@@ -20,7 +20,8 @@
   height: 250px;
   flex-direction: column;
   align-content: center;
-  font-family: 'comfortaa-regular';
+  font-family: 'Comfortaa', cursive;
+  font-weight: 400;
   opacity: 0;
   transition: .3s ease-in-out; }
   .work-synop p {
@@ -35,7 +36,8 @@
     color: #2E0444;
     z-index: 5; }
     .work-synop .project-links a {
-      font-family: 'comfortaa-bold'; }
+      font-family: 'Comfortaa', cursive;
+      font-weight: 700; }
       .work-synop .project-links a:hover {
         text-decoration: underline; }
 
