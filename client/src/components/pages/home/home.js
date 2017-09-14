@@ -15,7 +15,7 @@ export class Home extends React.Component{
 
   render(){
     return(
-      <main className="home container">
+      <main className="home container" id="home">
 
         <header className="home container">
           <div className="ship container">
