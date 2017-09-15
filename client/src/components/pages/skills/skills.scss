@@ -1,3 +1,5 @@
+@import './_animations.scss';
+
 .cards{
   width:100%;
   justify-content: space-between;
@@ -9,6 +11,8 @@
   width:fit-content;
   height:360px;
   flex-direction: column;
+  transition:.2s ease;
+  animation: fallIn .5s;
 }
 
 img{
@@ -17,6 +21,8 @@ img{
 }
 
 .develop{
+  transition:.2s ease;
+  animation: fallInMiddle .5s;
   margin-top:-20px;
 }
 

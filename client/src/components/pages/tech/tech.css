@@ -1,3 +1,18 @@
+@keyframes popIn {
+  0% {
+    opacity: 1;
+    transform: scale(0.1); }
+  60% {
+    transform: scale(1.1); }
+  100% {
+    transform: scale(1); } }
+
+@keyframes in {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 1; } }
+
 .techGrid {
   width: 100%;
   position: relative; }
@@ -33,4 +48,8 @@
   border: solid 2.5px #2E0444;
   display: flex; }
   .logo img {
-    margin: auto; }
+    margin: auto;
+    opacity: 0;
+    animation-name: popIn, in;
+    animation-duration: .5s, .01s;
+    animation-iteration-count: 1,infinite; }
