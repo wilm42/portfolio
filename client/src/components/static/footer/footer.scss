@@ -21,10 +21,11 @@ footer{
 }
 
 .links{
-  margin:5px;
   width:50px;
   justify-content: space-around;
   transition: .1s ease-in;
+  display: inline-block;
+  margin:5px;
   a:hover{
     cursor: pointer;
     transform: scale(1.1);

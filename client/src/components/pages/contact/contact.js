@@ -41,8 +41,8 @@ export class Contact extends React.Component{
           <div className="contact second container">
             <div className="contact direct container">
               <div className="contact direct images container">
-                <img src="./assets/contact/LinkedIn.svg" />
-                <img src="./assets/contact/GitHub.svg" />
+                <img src="./assets/contact/li-logo.svg" />
+                <img src="./assets/contact/gh-logo.svg" />
                 <img src="./assets/contact/email.svg" />
               </div>
               <img className="sep" src="./assets/contact/Line.svg" />
