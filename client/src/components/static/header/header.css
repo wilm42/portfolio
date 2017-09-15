@@ -3,4 +3,12 @@ header.page {
   font-size: 72px;
   font-family: 'Comfortaa', cursive;
   font-weight: 700;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  transition: .5s ease-out;
+  animation: fadeIn 2s; }
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }

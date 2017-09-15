@@ -13,9 +13,17 @@
   100% {
     opacity: 1; } }
 
+@keyframes fadeIn {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
 .techGrid {
   width: 100%;
-  position: relative; }
+  position: relative;
+  animation: fadeIn .5s;
+  transition: .2s ease-in; }
   .techGrid img {
     height: fit-content;
     width: fit-content; }

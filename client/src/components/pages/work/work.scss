@@ -1,4 +1,5 @@
 @import '../../static/_colors.scss';
+@import './_animations';
 
 .work-cards{
   flex-wrap:wrap;
@@ -58,6 +59,8 @@
   z-index:2;
   overflow: hidden;
   margin-bottom:20px;
+  animation-name: comeUp;
+  animation-duration: 1s;
   &:hover{
     .gradient{
       height:240px;
