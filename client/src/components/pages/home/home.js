@@ -26,7 +26,7 @@ export class Home extends React.Component{
               <span className="bold">martian</span>
             </h1>
             <h2 className="tagline">
-              <span className="reg">full-stack web developer, designer, & earthling.</span>
+              <span className="reg">full-stack web developer, designer & earthling.</span>
             </h2>
           </div>
         </header>
