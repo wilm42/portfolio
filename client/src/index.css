@@ -9,6 +9,25 @@
   flex-direction: column;
   overflow-x: hidden; }
 
+::-webkit-scrollbar {
+  width: .5em; }
+
+.bio::-webkit-scrollbar-track {
+  background-color: transparent;
+  border: 1px solid white; }
+
+.bio::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.5);
+  outline: none; }
+
+::-webkit-scrollbar-track {
+  background-color: #2E0444;
+  border: 1px solid #C04CFD; }
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.5);
+  outline: none; }
+
 main {
   width: 100%;
   max-width: 800px;

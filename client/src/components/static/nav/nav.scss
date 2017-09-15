@@ -12,7 +12,9 @@ nav{
   align-items:center;
   font-family: 'Comfortaa', cursive;
   font-weight: 400;
-  z-index:1;
+  z-index:10;
+  overflow:hidden;
+  transition: .2s ease-out;
   img{
     width:80px;
   }

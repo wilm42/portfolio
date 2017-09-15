@@ -1,0 +1,58 @@
+@keyframes flyOver{
+  0% {
+    transform: translateY(-335px) scale(.4) translateX(-1450px);
+  }
+  100% {
+    transform: initial;
+  }
+}
+
+@keyframes ufoHover{
+  50% {
+    transition: .2s ease-out;
+    transform: translateY(1px);
+  }
+  90% {
+    transform: translateY(-1px);
+  }
+}
+
+@keyframes beam{
+  50% {
+    opacity:1;
+  }
+}
+
+@keyframes cowMunch{
+  25% {
+    transform: translateX(24px) translateY(-22px);
+  }
+  50% {
+    transform: translateX(24px) translateY(-21px);
+  }
+  75% {
+    transform: translateX(26px) translateY(-21px);
+  }
+  100% {
+    transform: translateX(26px) translateY(-22px);
+  }
+}
+
+@keyframes cowFade{
+  0% {
+    opacity: 0%;
+  }
+
+  100% {
+    opacity: 100%;
+  }
+}
+
+@keyframes cowStay{
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}

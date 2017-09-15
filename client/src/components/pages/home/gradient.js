@@ -18,7 +18,7 @@ export default class Gradient extends React.Component{
       catch(e){
         return;
       }
-    }, 5000)
+    }, 3000)
   }
 
   gradientFollow(e){

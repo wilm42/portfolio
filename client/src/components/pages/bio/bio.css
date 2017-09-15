@@ -1,0 +1,52 @@
+@keyframes meetUp {
+  0% {
+    opacity: 0;
+    width: 500%; }
+  80% {
+    opacity: 1;
+    width: 85%; }
+  100% {
+    width: 100%; } }
+
+.bio.content {
+  width: 100%;
+  justify-content: space-around;
+  transition: 1s ease-out;
+  animation: meetUp .7s; }
+
+.bio.image {
+  width: 265px;
+  height: 350px;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5); }
+  .bio.image img {
+    width: auto;
+    height: 350px; }
+
+.bio.text {
+  font-family: 'Comfortaa', cursive;
+  box-sizing: border-box;
+  width: 500px;
+  height: 350px;
+  background-color: #2E0444;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  padding: 20px; }
+  .bio.text h2.greetings {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px; }
+  .bio.text p {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.32px;
+    line-height: 1.2;
+    margin-bottom: 10px; }
+  .bio.text .paragraphs {
+    overflow-y: scroll; }
+  .bio.text a {
+    text-decoration: underline;
+    text-decoration-color: #C04CFD; }
+    .bio.text a:hover {
+      color: #C04CFD; }

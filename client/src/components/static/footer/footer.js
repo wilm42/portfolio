@@ -7,7 +7,7 @@ export class Footer extends React.Component{
   render(){
     let style;
     if(this.props.view === 'home'){ 
-      style= {opacity: '0'};
+      style= {opacity: '0', height:'0px'};
     }
     return(
       <footer style={style}>

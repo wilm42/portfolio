@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="78px" height="72px" viewBox="0 0 78 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>LinkedIn</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M628,303.636364 L612.529045,303.636364 L612.529045,281.265637 C612.529045,275.41013 610.109008,271.412738 604.787394,271.412738 C600.716957,271.412738 598.453316,274.110264 597.399694,276.709996 C597.004586,277.643128 597.066322,278.942993 597.066322,280.242859 L597.066322,303.636364 L581.739417,303.636364 C581.739417,303.636364 581.936971,264.008802 581.739417,260.406666 L597.066322,260.406666 L597.066322,267.191231 C597.971778,264.224767 602.869473,259.991035 610.685207,259.991035 C620.38182,259.991035 628,266.209201 628,279.599038 L628,303.636364 L628,303.636364 Z M566.239652,254.999389 L566.140875,254.999389 C561.202023,254.999389 558,251.694715 558,247.505807 C558,243.235402 561.296684,240 566.334313,240 C571.367827,240 574.462841,243.227252 574.561618,247.493582 C574.561618,251.682491 571.367827,254.999389 566.239652,254.999389 L566.239652,254.999389 L566.239652,254.999389 Z M559.76564,260.406666 L573.409219,260.406666 L573.409219,303.636364 L559.76564,303.636364 L559.76564,260.406666 L559.76564,260.406666 Z" id="path-1"></path>
+        <filter x="-10.0%" y="-7.9%" width="120.0%" height="122.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="contact" transform="translate(-554.000000, -238.000000)">
+            <g id="LinkedIn">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#2E0444" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>

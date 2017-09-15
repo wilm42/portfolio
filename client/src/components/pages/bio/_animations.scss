@@ -1,0 +1,13 @@
+@keyframes meetUp{
+  0% {
+    opacity:0;
+    width: 500%;
+  }
+  80% {
+    opacity: 1;
+    width: 85%;
+  }
+  100% {
+    width: 100%;
+  }
+}

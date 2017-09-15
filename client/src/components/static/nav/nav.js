@@ -11,12 +11,13 @@ export class Nav extends React.Component{
   }
 
   render(){
-    let nav;
-    if(this.props.view !== 'home'){
-      nav = (
-        <nav className="container">
+    let style = this.props.view === 'home' ? {opacity: '0', height: '0px'} : null;
+    let shipStyle = this.props.view === 'contact' ? {opacity: '0', transition:'.01s ease'} : null;
+    return(
+      <div>
+        <nav className="container" style={style}>
           <div className="buffer container left">
-            <Link to="/"><img alt="ufo logo, link to home" src="./assets/ufo.svg" /></Link>
+            <Link to="/" style={shipStyle}><img alt="ufo logo, link to home" src="./assets/ufo.svg" /></Link>
           </div>
           <ul className="page-nav container">
             <Link to="/skills">
@@ -52,11 +53,6 @@ export class Nav extends React.Component{
           </ul>
           <div className="buffer container right"></div>
         </nav>
-      );
-    }
-    return(
-      <div>
-        {nav}
       </div>
     );
   }
