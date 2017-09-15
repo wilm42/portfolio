@@ -45,7 +45,7 @@ export class Contact extends React.Component{
                 <img src="./assets/contact/gh-logo.svg" />
                 <img src="./assets/contact/email.svg" />
               </div>
-              <img className="sep" src="./assets/contact/Line.svg" />
+              <img className="sep" src="./assets/contact/line.svg" />
               <img className="contactShip" src="./assets/contact/contact-ufo.svg" />
               <div className="beams container">
                 <img className="beam beam-1" src="./assets/contact/beams/beam-1.svg" />
