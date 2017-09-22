@@ -13,7 +13,7 @@ nav{
   font-family: 'Comfortaa', cursive;
   font-weight: 400;
   z-index:10;
-  overflow:hidden;
+  // overflow:hidden;
   transition: .2s ease-out;
   img{
     width:80px;
@@ -74,4 +74,13 @@ a{
   text-decoration:none;
   color:inherit;
   transition: .2s ease-in;
+}
+
+@media only screen 
+and (max-width: 850px) {
+  nav{
+    img{
+      display: none;
+    }
+  }
 }

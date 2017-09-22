@@ -61,3 +61,26 @@
     animation-name: popIn, in;
     animation-duration: .5s, .01s;
     animation-iteration-count: 1,infinite; }
+
+@media only screen and (max-width: 850px) {
+  .techGrid {
+    width: 80vw;
+    height: 100%; }
+    .techGrid img {
+      display: none; }
+    .techGrid .content {
+      width: 100%;
+      flex-wrap: wrap; }
+    .techGrid .row {
+      flex-direction: row;
+      margin-bottom: 10%; }
+    .techGrid .logo {
+      border: none; }
+      .techGrid .logo img {
+        width: 90%;
+        height: 90%;
+        display: initial; }
+    .techGrid .content {
+      position: relative;
+      top: 0;
+      left: 0; } }

@@ -50,3 +50,21 @@
     text-decoration-color: #C04CFD; }
     .bio.text a:hover {
       color: #C04CFD; }
+
+@media only screen and (max-width: 850px) {
+  header.bio {
+    display: none; }
+  .bio.content {
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    width: 80vw; }
+  .bio.text {
+    width: 80vw; }
+  .bio.image {
+    height: 20vw;
+    width: 20vw;
+    border-radius: 100%;
+    margin-bottom: 5%; }
+    .bio.image img {
+      height: 20vw; } }

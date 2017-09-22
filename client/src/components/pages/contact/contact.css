@@ -151,3 +151,9 @@ span.labelText {
     animation-iteration-count: 1, infinite;
     animation-duration: 1s, .1s;
     animation-delay: 4s; }
+
+@media only screen and (max-width: 850px) {
+  .second {
+    margin: auto; }
+  form.contact {
+    display: none; } }

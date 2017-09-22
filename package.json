@@ -27,5 +27,15 @@
     "node-sass-chokidar": "0.0.3",
     "npm-run-all": "^4.0.2",
     "xp": "^1.0.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-strip-debug": "^1.1.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-util": "^3.0.8",
+    "node-notifier": "^5.1.2"
   }
 }

@@ -140,3 +140,13 @@ span.labelText{
     animation-delay: 4s;
   }
 }
+
+@media only screen 
+and (max-width: 850px) {
+  .second{
+    margin:auto;
+  }
+  form.contact{
+    display: none;
+  }
+}

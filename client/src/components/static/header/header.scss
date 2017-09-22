@@ -16,3 +16,10 @@ header.page{
     opacity: 1;
   }
 }
+
+@media only screen 
+and (max-width: 850px) {
+  header.page{
+    width:80vw;
+  }
+}
