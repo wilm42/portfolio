@@ -1,4 +1,5 @@
 @import './_animations.scss';
+@import '../../static/_colors.scss';
 
 .bold{
   font-family: 'Comfortaa', cursive;
@@ -49,8 +50,8 @@ h2.tagline{
   box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
   margin-left:auto;
   margin-right:auto;
-  width:800px;
-  height:500px;
+  width: 100%;
+  display:flex;
   position:relative;
   animation: fadeIn 2s;
 }
@@ -87,3 +88,65 @@ h2.tagline{
     transition: 1s ease-in-out;
   }
 }
+
+.desktop{
+  display: block;
+}
+
+.mobile{
+  display: none;
+}
+
+@media only screen 
+and (max-width: 850px) {
+  .desktop{
+    display: none;
+  }
+  .mobile{
+    display: block;
+    margin:auto;
+    width:80vw;
+    height:auto;
+  }
+  .grid{
+    width: fit-content;
+    height:100vw;
+  }
+  .gridNav{
+    width:24.25%;
+    height:18.25%;
+    margin-left:74.75%;
+    margin-top:101.25%;
+  }
+  header.home{
+    flex-direction: column-reverse;
+    box-sizing:border-box;
+    width:80vw;
+    img{
+      margin-top: -2%;
+      height: 10vw;
+      width:auto;
+      margin-right:10px;
+    }
+    h1{
+      font-size: 10vw;
+      text-align: right;
+    }
+    h2{
+      font-size: 5vw;
+      margin-bottom:-7%;
+      .mobileHide{
+        display:none;
+      }
+    }
+  }
+}
+
+// @media only screen 
+// and (max-width: 700px) {
+//   header.home{
+//     h2{
+//       display: none;
+//     }
+//   }
+// }

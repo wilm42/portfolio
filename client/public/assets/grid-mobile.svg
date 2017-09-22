@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="385px" height="484px" viewBox="0 0 385 484" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>grid-mobile</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="grid-mobile">
+            <g id="lines" transform="translate(2.005208, 0.000000)" stroke="#2E0444" stroke-width="5">
+                <path d="M379.686676,387.581792 L0,387.581792" id="Line"></path>
+                <path d="M380.187978,290.246577 L0,290.246577" id="Line-Copy"></path>
+                <path d="M380.187978,194.084074 L0,194.084074" id="Line-Copy-2"></path>
+                <path d="M379.185374,96.7488589 L0,96.7488589" id="Line-Copy-3"></path>
+                <path d="M95.1778159,0.480148474 L95.1778159,480.500555" id="Line-Copy-3"></path>
+                <path d="M189.88211,0.480148474 L189.88211,480.500037" id="Line-Copy-4"></path>
+                <path d="M284.586405,0.480148474 L284.586405,481.50013" id="Line-Copy-5"></path>
+            </g>
+            <g id="Blocked-out" transform="translate(3.007812, 0.000000)" fill="#2E0444">
+                <rect id="Rectangle-2" x="0" y="0" width="96.5983803" height="99.7098321"></rect>
+                <rect id="Rectangle-2-Copy-3" x="283.736979" y="388" width="96.25" height="92"></rect>
+                <rect id="Rectangle-2-Copy-2" x="94.7042944" y="0" width="96.5983803" height="99.7098321"></rect>
+                <rect id="Rectangle-2-Copy" x="0" y="98.7417754" width="96.5983803" height="99.7098321"></rect>
+            </g>
+            <path d="M2.5,2.5 L2.5,481.528311 L382.520445,481.528311 L382.520445,2.5 L2.5,2.5 Z" id="Frame" stroke="#2E0444" stroke-width="5"></path>
+        </g>
+    </g>
+</svg>

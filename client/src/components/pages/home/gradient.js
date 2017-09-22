@@ -45,7 +45,8 @@ export default class Gradient extends React.Component{
               <img alt="navigation arrow bottom" className="bottom" src="./assets/gridNav.svg"/>
             </div>
           </Link>
-          <img alt="grid" src="./assets/Grid.svg"/>
+          <img alt="grid" className="desktop" src="./assets/Grid.svg"/>
+          <img alt="grid" className="mobile" src="./assets/grid-mobile.svg"/>
 
       </div>
     );
