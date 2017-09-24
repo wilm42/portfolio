@@ -18,7 +18,8 @@
 
 .work-cards {
   flex-wrap: wrap;
-  justify-content: space-between; }
+  justify-content: space-between;
+  width: 100%; }
 
 .gradient {
   height: 162px;
