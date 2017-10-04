@@ -38,20 +38,58 @@
     opacity: 1; } }
 
 .contact.content {
-  font-family: 'Comfortaa', cursive;
+  font-family: "Comfortaa", cursive;
   width: 100%;
   justify-content: space-between; }
 
 form.contact {
+  position: relative;
   width: 100%;
   flex-direction: column;
   box-sizing: border-box;
-  background-color: #2E0444;
+  background-color: #2e0444;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
   width: 425px;
   min-height: 350px;
   height: fit-content;
   padding: 20px; }
+  form.contact .feedback {
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    width: 100%;
+    height: 0%;
+    text-align: center;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    transition: 0.3s ease-out; }
+    form.contact .feedback span {
+      margin-top: 10px;
+      margin-left: 20%;
+      margin-right: 20%; }
+      form.contact .feedback span:last-child {
+        margin-bottom: 10px; }
+    form.contact .feedback.show {
+      transition: 0.3s ease-out;
+      animation: feedback 5s; }
+    form.contact .feedback.submitted {
+      background-color: #75dacd;
+      color: #2e0444; }
+
+@keyframes feedback {
+  0% {
+    height: 0%; }
+  10% {
+    height: 20%; }
+  90% {
+    height: 20%; }
+  100% {
+    height: 0%; } }
 
 .wrapper {
   margin-bottom: 20px; }
@@ -60,30 +98,61 @@ form.contact {
   .wrapper input[type="text"] {
     box-sizing: border-box;
     background: linear-gradient(-90deg, rgba(117, 219, 205, 0.42) 0%, rgba(180, 99, 245, 0.5) 100%);
-    border: 2px solid #C04CFD;
+    border: 2px solid #c04cfd;
     height: 40px;
     width: 100%;
-    font-family: 'Comfortaa', cursive;
-    font-size: 24px;
+    font-family: "Comfortaa", cursive;
+    font-size: 22px;
     padding: 10px;
-    color: white; }
+    color: white;
+    transition: 0.1s ease-out; }
+    .wrapper input[type="text"]:focus {
+      transition: 0.3s ease-out;
+      border: 2px solid #75dacd;
+      outline: none; }
     .wrapper input[type="text"]::-webkit-input-placeholder {
       font-weight: 300;
       color: rgba(255, 255, 255, 0.5); }
-  .wrapper.message {
-    height: fit-content; }
   .wrapper textarea {
-    width: 100%;
-    overflow-x: hidden;
-    overflow-y: auto;
-    height: 100%;
     box-sizing: border-box;
+    resize: none;
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: auto;
+    height: 110px;
+    font-size: 22px;
     background: linear-gradient(-90deg, rgba(117, 219, 205, 0.42) 0%, rgba(180, 99, 245, 0.5) 100%);
-    border: 2px solid #C04CFD;
-    font-family: 'Comfortaa', cursive;
-    font-size: 24px;
+    border: 2px solid #c04cfd;
+    font-family: "Comfortaa", cursive;
     padding: 10px;
-    color: white; }
+    color: white;
+    transition: 0.1s ease-out; }
+    .wrapper textarea:focus {
+      transition: 0.3s ease-out;
+      border: 2px solid #75dacd;
+      outline: none; }
+    .wrapper textarea::-webkit-input-placeholder {
+      font-weight: 300;
+      color: rgba(255, 255, 255, 0.5); }
+
+button#contact {
+  height: 40px;
+  width: 60%;
+  margin: auto;
+  background: linear-gradient(-90deg, #75dbcd 0%, #b463f5 100%);
+  border: 2px solid #c04cfd;
+  font-family: "Comfortaa", cursive;
+  color: #2e0444;
+  font-size: 20px;
+  transition: 0.2s ease-in-out; }
+  button#contact:hover {
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    transform: scale(1.01); }
+  button#contact:active {
+    transition: 0.2s ease-in-out;
+    transform: scale(1);
+    border: 2px solid #75dacd; }
 
 span.labelText {
   display: block;
@@ -98,13 +167,21 @@ span.labelText {
     flex-direction: row;
     justify-content: space-around;
     align-items: center; }
+    .contact.direct .images a:hover {
+      animation: wiggle 0.5s; }
+
+@keyframes wiggle {
+  33% {
+    transform: scale(1.01) translateY(-2px) rotate(1deg); }
+  66% {
+    transform: scale(1.01) translateY(-2px) rotate(-1deg); } }
   .contact.direct img.sep {
     width: 100%;
     height: auto; }
   .contact.direct img.contactShip {
     margin: auto;
     margin-top: 20px;
-    transition: .2s ease-out;
+    transition: 0.2s ease-out;
     animation-name: flyOver, ufoHover;
     animation-duration: 2s, 1s;
     animation-iteration-count: 1, infinite;
@@ -117,7 +194,7 @@ span.labelText {
     align-items: center; }
   .contact.direct .beam {
     opacity: 0;
-    transition: .2s ease-in-out;
+    transition: 0.2s ease-in-out;
     animation-name: beam;
     animation-duration: 3s; }
   .contact.direct .beam-1 {
@@ -136,7 +213,7 @@ span.labelText {
   .contact.direct .grass {
     align-self: flex-end; }
   .contact.direct .cow-jaw {
-    transition: .5s ease-in-out;
+    transition: 0.5s ease-in-out;
     height: 5px;
     transform: translateY(-22px) translateX(25px);
     animation: cowMunch 1s infinite;
@@ -144,12 +221,12 @@ span.labelText {
   .contact.direct img.cow {
     align-self: flex-end; }
   .contact.direct div.cow {
-    transition: .2s ease-out;
+    transition: 0.2s ease-out;
     opacity: 0;
     margin-left: -40px;
     animation-name: cowFade, cowStay;
     animation-iteration-count: 1, infinite;
-    animation-duration: 1s, .1s;
+    animation-duration: 1s, 0.1s;
     animation-delay: 4s; }
 
 @media only screen and (max-width: 850px) {

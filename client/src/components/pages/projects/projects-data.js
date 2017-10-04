@@ -41,7 +41,7 @@ export const projects = [
 	},
 	{
 		type: "MOBILE",
-		title: "SeekhanaMobile",
+		title: "Seekhana mobile",
 		screenshot: "./assets/work/screenshots/seekhana_mobile.png",
 		tech: [
 			{ text: "React", logo: "./assets/tech-logos/react.svg" },

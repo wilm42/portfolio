@@ -28,7 +28,7 @@ a {
 .page-nav {
   width: 400px;
   justify-content: space-around;
-  color: #2E0444;
+  color: #2e0444;
   font-size: 20px;
   flex-grow: 3;
   z-index: 1; }

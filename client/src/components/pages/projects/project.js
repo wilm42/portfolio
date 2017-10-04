@@ -24,16 +24,18 @@ export default class Project extends React.Component {
 							alt=""
 							src="./assets/work/logos/seekhana.svg"
 						/>
-						<img
-							alt="phone mockup"
-							className="phone"
-							src="./assets/work/phone-container.svg"
-						/>
-						<img
-							alt={this.props.data.title + " screenshot"}
-							className="screenShot phone"
-							src={this.props.data.screenshot}
-						/>
+						<div className="pos-fix">
+							<img
+								alt="phone mockup"
+								className="phone"
+								src="./assets/work/phone-container.svg"
+							/>
+							<img
+								alt={this.props.data.title + " screenshot"}
+								className="screenShot phone"
+								src={this.props.data.screenshot}
+							/>
+						</div>
 					</div>
 				)}
 

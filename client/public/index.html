@@ -1,35 +1,41 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta name="google-site-verification" content="bEQwiNNH6BgxtMsn-MvD-2dtwWViRGce64YIv8avn4s" />
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=Comfortaa:300,400,700" rel="stylesheet">
-    <link rel="shortcut icon" href="./assets/favicon.ico">
-    <link rel="stylesheet" href="%PUBLIC_URL%/reset.css">
-    <title>William Martian</title>
-  </head>
-  <body>
-    <!-- yes, i'm watching you. :) -->
-    <script>
-        window['_fs_debug'] = false;
-        window['_fs_host'] = 'fullstory.com';
-        window['_fs_org'] = '777BG';
-        window['_fs_namespace'] = 'FS';
-        (function(m,n,e,t,l,o,g,y){
-            if (e in m) {if(m.console && m.console.log) { m.console.log('FullStory namespace conflict. Please set window["_fs_namespace"].');} return;}
-            g=m[e]=function(a,b){g.q?g.q.push([a,b]):g._api(a,b);};g.q=[];
-            o=n.createElement(t);o.async=1;o.src='https://'+_fs_host+'/s/fs.js';
-            y=n.getElementsByTagName(t)[0];y.parentNode.insertBefore(o,y);
-            g.identify=function(i,v){g(l,{uid:i});if(v)g(l,v)};g.setUserVars=function(v){g(l,v)};
-            g.identifyAccount=function(i,v){o='account';v=v||{};v.acctId=i;g(o,v)};
-            g.clearUserCookie=function(c,d,i){if(!c || document.cookie.match('fs_uid=[`;`]*`[`;`]*`[`;`]*`')){
-            d=n.domain;while(1){n.cookie='fs_uid=;domain='+d+
-            ';path=/;expires='+new Date(0).toUTCString();i=d.indexOf('.');if(i<0)break;d=d.slice(i+1)}}};
-        })(window,document,window['_fs_namespace'],'script','user');
-    </script>
-    <div id="root">
-    </div>
-    <script src="./scrollsnap-polyfill/dist/scrollsnap-polyfill.bundled.js"> </script>
-  </body>
+
+<head>
+  <meta name="google-site-verification" content="bEQwiNNH6BgxtMsn-MvD-2dtwWViRGce64YIv8avn4s" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa:300,400,700" rel="stylesheet">
+  <link rel="shortcut icon" href="./assets/favicon.ico">
+  <link rel="stylesheet" href="%PUBLIC_URL%/reset.css">
+  <title>William Martian</title>
+</head>
+
+<body>
+  <script>
+    window['_fs_debug'] = false;
+    window['_fs_host'] = 'fullstory.com';
+    window['_fs_org'] = '777BG';
+    window['_fs_namespace'] = 'FS';
+    (function (m, n, e, t, l, o, g, y) {
+      if (e in m) { if (m.console && m.console.log) { m.console.log('FullStory namespace conflict. Please set window["_fs_namespace"].'); } return; }
+      g = m[e] = function (a, b) { g.q ? g.q.push([a, b]) : g._api(a, b); }; g.q = [];
+      o = n.createElement(t); o.async = 1; o.src = 'https://' + _fs_host + '/s/fs.js';
+      y = n.getElementsByTagName(t)[0]; y.parentNode.insertBefore(o, y);
+      g.identify = function (i, v) { g(l, { uid: i }); if (v) g(l, v) }; g.setUserVars = function (v) { g(l, v) };
+      g.identifyAccount = function (i, v) { o = 'account'; v = v || {}; v.acctId = i; g(o, v) };
+      g.clearUserCookie = function (c, d, i) {        
+if (!c || document.cookie.match('fs_uid=[`;`]*`[`;`]*`[`;`]*`')) {
+          d = n.domain; while (1) {
+          n.cookie = 'fs_uid=;domain=' + d +
+            ';path=/;expires=' + new Date(0).toUTCString(); i = d.indexOf('.'); if (i < 0) break; d = d.slice(i + 1)
+          }        
+}      
+};
+    })(window, document, window['_fs_namespace'], 'script', 'user');
+  </script>
+  <div id="root">
+  </div>
+</body>
+
 </html>

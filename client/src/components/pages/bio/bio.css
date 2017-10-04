@@ -30,7 +30,7 @@
   box-sizing: border-box;
   width: 500px;
   height: 350px;
-  background-color: #2E0444;
+  background-color: #2e0444;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
   padding: 20px; }
   .bio.text h2.greetings {
@@ -47,9 +47,9 @@
     overflow-y: scroll; }
   .bio.text a {
     text-decoration: underline;
-    text-decoration-color: #C04CFD; }
+    text-decoration-color: #c04cfd; }
     .bio.text a:hover {
-      color: #C04CFD; }
+      color: #c04cfd; }
 
 @media only screen and (max-width: 850px) {
   header.bio {

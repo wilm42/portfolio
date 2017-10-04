@@ -27,7 +27,7 @@
   overflow: hidden;
   justify-content: center;
   align-items: center;
-  border: 5px solid #2E0444;
+  border: 5px solid #2e0444;
   transition: .3s ease-in; }
   .gradient img.work-logo {
     opacity: 1;
@@ -52,7 +52,7 @@
   .work-synop .project-links {
     margin: auto;
     margin-top: 10px;
-    color: #2E0444;
+    color: #2e0444;
     z-index: 5; }
     .work-synop .project-links a {
       font-family: 'Comfortaa', cursive;
