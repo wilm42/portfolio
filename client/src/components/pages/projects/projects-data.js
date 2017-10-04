@@ -3,6 +3,7 @@ import React from "react";
 
 export const projects = [
 	{
+		type: "WEB",
 		title: "Seekhana",
 		screenshot: "./assets/work/screenshots/seekhana.png",
 		tech: [
@@ -21,6 +22,7 @@ export const projects = [
 		live: "http://seekhana.herokuapp.com/",
 	},
 	{
+		type: "WEB",
 		title: "Pollster",
 		screenshot: "./assets/work/screenshots/pollster.png",
 		tech: [
@@ -38,6 +40,25 @@ export const projects = [
 		live: "http://realtime-pollster.herokuapp.com",
 	},
 	{
+		type: "MOBILE",
+		title: "SeekhanaMobile",
+		screenshot: "./assets/work/screenshots/seekhana_mobile.png",
+		tech: [
+			{ text: "React", logo: "./assets/tech-logos/react.svg" },
+			{ text: "OAuth", logo: "./assets/tech-logos/google.svg" },
+			{ text: "Node.js", logo: "./assets/tech-logos/Node.svg" },
+			{ text: "MongoDB", logo: "./assets/tech-logos/mongodb-notext.svg" },
+		],
+		description: [
+			"This is a React Native implementation of the seekhana web app, it focuses on a clean UI and it has a much more robust version of the alphabet lesson than the web app.",
+			"This app is built using only React Native, Native Base, and Firebase.",
+			"For my first attempt at a React Native app, I think this thing came out pretty swell. I'm looking forward to doing more React Native Projects in the future",
+		],
+		source: "https://github.com/wilm42/seekhanaMobile",
+		live: "https://wilm42.github.io/seekhanaMobile/",
+	},
+	{
+		type: "WEB",
 		title: "devCupid",
 		screenshot: "./assets/work/screenshots/devCupid.png",
 		tech: [

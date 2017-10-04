@@ -4,18 +4,38 @@ export default class Project extends React.Component {
 	render() {
 		return (
 			<div className="project-grid">
-				<div className="mockup">
-					<img
-						alt="laptop mockup"
-						className="laptop"
-						src="./assets/work/laptop-container.svg"
-					/>
-					<img
-						alt={this.props.data.title + " screenshot"}
-						className="screenShot"
-						src={this.props.data.screenshot}
-					/>
-				</div>
+				{this.props.data.type === "WEB" ? (
+					<div className="mockup laptop-container">
+						<img
+							alt="laptop mockup"
+							className="laptop"
+							src="./assets/work/laptop-container.svg"
+						/>
+						<img
+							alt={this.props.data.title + " screenshot"}
+							className="screenShot laptop"
+							src={this.props.data.screenshot}
+						/>
+					</div>
+				) : (
+					<div className="mockup phone-container">
+						<img
+							className="phone-mock-bg"
+							alt=""
+							src="./assets/work/logos/seekhana.svg"
+						/>
+						<img
+							alt="phone mockup"
+							className="phone"
+							src="./assets/work/phone-container.svg"
+						/>
+						<img
+							alt={this.props.data.title + " screenshot"}
+							className="screenShot phone"
+							src={this.props.data.screenshot}
+						/>
+					</div>
+				)}
 
 				<div className="project-links">
 					<div>
@@ -35,7 +55,11 @@ export default class Project extends React.Component {
 					</div>
 				</div>
 
-				<div className="project-tech">
+				<div
+					className="project-tech"
+					style={
+						this.props.data.type === "MOBILE" ? { display: "none" } : null
+					}>
 					{this.props.data.tech.map(item => {
 						return (
 							<div key={item.text} className="project-logo">

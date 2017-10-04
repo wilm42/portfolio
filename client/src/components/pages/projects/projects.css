@@ -3,22 +3,49 @@
   height: 100%; }
 
 .mockup {
-  margin-left: -30px;
-  margin-right: -30px;
   position: relative;
   grid-column-end: span 1;
   grid-column-start: 1;
   grid-row-start: 1;
   grid-row-end: span 2; }
+  .mockup.laptop-container {
+    margin-left: -30px;
+    margin-right: -30px; }
+  .mockup.phone-container {
+    display: flex;
+    flex-direction: column; }
   .mockup .laptop {
     width: 100%;
     height: auto; }
-  .mockup .screenShot {
-    width: 73.5%;
-    height: 60.35%;
+  .mockup .phone {
+    width: 50%;
+    margin: auto;
+    height: auto;
+    margin-top: -15%;
+    margin-bottom: -15%; }
+  .mockup .phone-mock-bg {
     position: absolute;
-    top: 6.2%;
-    left: 12.8%; }
+    z-index: -99;
+    width: auto;
+    height: 100%;
+    transform: scale(1.7);
+    right: 0;
+    left: 0;
+    margin-left: auto;
+    opacity: 0.1;
+    margin-right: auto; }
+  .mockup .screenShot {
+    position: absolute; }
+    .mockup .screenShot.laptop {
+      width: 73.5%;
+      height: 60.35%;
+      top: 6.2%;
+      left: 12.8%; }
+    .mockup .screenShot.phone {
+      width: 43.5%;
+      height: 109%;
+      top: 17%;
+      left: 28%; }
 
 .text.project {
   align-self: start;
