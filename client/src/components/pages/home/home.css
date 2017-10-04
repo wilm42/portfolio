@@ -54,15 +54,15 @@
     margin-right: initial; } }
 
 .bold {
-  font-family: 'Comfortaa', cursive;
+  font-family: "Comfortaa", cursive;
   font-weight: 700; }
 
 .reg {
-  font-family: 'Comfortaa', cursive;
+  font-family: "Comfortaa", cursive;
   font-weight: 400; }
 
 .thin {
-  font-family: 'Comfortaa', cursive;
+  font-family: "Comfortaa", cursive;
   font-weight: 300; }
 
 img {
@@ -91,7 +91,7 @@ h2.tagline {
   animation: fadeIn 2s; }
 
 .grid {
-  background: radial-gradient(circle 600px at 70% 60%, #75DBCD 20%, #C04CFD 100%);
+  background: radial-gradient(circle 600px at 70% 60%, #75dbcd 20%, #c04cfd 100%);
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
   margin-left: auto;
   margin-right: auto;
@@ -111,19 +111,19 @@ h2.tagline {
   align-items: center;
   flex-direction: column;
   opacity: 0;
-  transition: .3s ease-in-out; }
+  transition: 0.3s ease-in-out; }
   .gridNav .top {
     margin-bottom: -5px;
     animation: arrowTop 1.5s infinite;
-    transition: .2s ease-in-out; }
+    transition: 0.2s ease-in-out; }
   .gridNav .bottom {
     margin-top: -5px;
     animation: arrowBottom 1.5s infinite;
-    transition: .2s ease-in-out; }
+    transition: 0.2s ease-in-out; }
   .gridNav:hover {
     cursor: pointer;
     opacity: 1;
-    transition: .3s ease-in-out; }
+    transition: 0.3s ease-in-out; }
   .gridNav.show {
     opacity: 1;
     transition: 1s ease-in-out; }

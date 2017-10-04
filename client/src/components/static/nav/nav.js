@@ -9,19 +9,24 @@ export class Nav extends React.Component {
 	render() {
 		let style =
 			this.props.view === "home" ? { opacity: "0", height: "0px" } : null;
-		let shipStyle =
-			this.props.view === "contact"
-				? { opacity: "0", transition: ".01s ease" }
-				: null;
+		let shipStyle = this.props.view === "contact" ? { display: "none" } : null;
+		let homeStyle = this.props.view === "contact" ? null : { display: "none" };
 		return (
 			<div>
 				<nav className="container" style={style}>
 					<div className="buffer container left">
-						<Link to="/" style={shipStyle}>
-							<img alt="ufo logo, link to home" src="./assets/ufo.svg" />
+						<Link to="/">
+							<img
+								style={shipStyle}
+								alt="ufo logo, link to home"
+								src="./assets/ufo.svg"
+							/>
 						</Link>
 					</div>
 					<ul className="page-nav container">
+						<Link style={homeStyle} to="/">
+							<li className="home">home</li>
+						</Link>
 						<Link to="/skills">
 							<li className={this.props.view === "skills" ? "active" : ""}>
 								skills
