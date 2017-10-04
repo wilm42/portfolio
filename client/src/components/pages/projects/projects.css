@@ -1,3 +1,37 @@
+@keyframes deviceFade {
+  0% {
+    transform: scale(2); }
+  100% {
+    transform: scale(1); } }
+
+@keyframes logoPop {
+  0% {
+    transform: scale(0); }
+  5% {
+    transform: scale(0); }
+  8% {
+    transform: scale(1.2); }
+  12% {
+    transform: scale(1); }
+  100% {
+    transform: scale(1); } }
+
+@keyframes slideInRight {
+  0% {
+    transform: translateX(300%); }
+  60% {
+    transform: translateX(-5%); }
+  100% {
+    transform: translateX(initial); } }
+
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-300%); }
+  80% {
+    transform: translateX(5%); }
+  100% {
+    transform: translateX(initial); } }
+
 .projects {
   width: 100%;
   height: 100%; }
@@ -17,7 +51,8 @@
   .project-grid:nth-child(even) .mockup {
     grid-column-start: 2; }
   .project-grid:nth-child(even) .text.project {
-    grid-column-start: 1; }
+    grid-column-start: 1;
+    animation: slideInLeft 1s; }
   .project-grid:nth-child(even) .project-tech {
     grid-column-start: 2; }
   .project-grid:nth-child(even) .project-links {
@@ -29,6 +64,9 @@
     margin-bottom: 40px; }
 
 .mockup {
+  z-index: 999;
+  transition: 0.2s ease-out;
+  animation: deviceFade 0.5s;
   position: relative;
   grid-column-end: span 1;
   grid-column-start: 1;
@@ -79,6 +117,7 @@
       left: 6.3%; }
 
 .text.project {
+  animation: slideInRight 1s;
   align-self: start;
   font-family: "Comfortaa", cursive;
   box-sizing: border-box;
@@ -117,19 +156,23 @@
     flex-direction: column;
     align-content: center;
     align-items: center;
-    height: 100%;
-    overflow: hidden; }
+    height: 100%; }
     .project-tech .project-logo img {
-      transition: 0.2s ease-in;
+      animation: logoPop 10s;
+      transition: 0.2s ease-out;
       height: 100%; }
     .project-tech .project-logo h3 {
       font-family: "Comfortaa", cursive;
       font-weight: 700;
       margin-top: 5px;
-      transition: 0.2s ease-in; }
+      transition: 0.2s ease-out;
+      opacity: 0; }
     .project-tech .project-logo:hover img {
-      height: 65%;
-      transition: 0.2s ease-in; }
+      transform: translateY(-20%);
+      transition: 0.2s ease-out; }
+    .project-tech .project-logo:hover h3 {
+      transition: 0.2s ease-out;
+      opacity: 1; }
 
 .project-links {
   margin-top: -35%;

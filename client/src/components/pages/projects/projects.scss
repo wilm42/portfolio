@@ -1,5 +1,7 @@
 @import "../../static/_colors.scss";
 
+@import "./_animations.scss";
+
 .projects {
 	width: 100%;
 	height: 100%;
@@ -23,6 +25,7 @@
 		}
 		.text.project {
 			grid-column-start: 1;
+			animation: slideInLeft 1s;
 		}
 		.project-tech {
 			grid-column-start: 2;
@@ -41,6 +44,9 @@
 }
 
 .mockup {
+	z-index: 999;
+	transition: 0.2s ease-out;
+	animation: deviceFade 0.5s;
 	position: relative;
 	grid-column-end: span 1;
 	grid-column-start: 1;
@@ -101,6 +107,7 @@
 }
 
 .text.project {
+	animation: slideInRight 1s;
 	align-self: start;
 	font-family: "Comfortaa", cursive;
 	box-sizing: border-box;
@@ -144,21 +151,26 @@
 		align-content: center;
 		align-items: center;
 		height: 100%;
-		overflow: hidden;
 		img {
-			transition: 0.2s ease-in;
+			animation: logoPop 10s;
+			transition: 0.2s ease-out;
 			height: 100%;
 		}
 		h3 {
 			font-family: "Comfortaa", cursive;
 			font-weight: 700;
 			margin-top: 5px;
-			transition: 0.2s ease-in;
+			transition: 0.2s ease-out;
+			opacity: 0;
 		}
 		&:hover {
 			img {
-				height: 65%;
-				transition: 0.2s ease-in;
+				transform: translateY(-20%);
+				transition: 0.2s ease-out;
+			}
+			h3 {
+				transition: 0.2s ease-out;
+				opacity: 1;
 			}
 		}
 	}
