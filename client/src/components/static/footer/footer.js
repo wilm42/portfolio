@@ -12,8 +12,8 @@ export class Footer extends React.Component {
 		return (
 			<footer style={style}>
 				<div>
-					handcrafted by Wilm martin © 2017 | ufo icon created by Kaylen from
-					the <a href="https://nounproject.org">noun project</a>.
+					handcrafted by wilm © 2017 | ufo icon created by Kaylen from the{" "}
+					<a href="https://nounproject.org">noun project</a>.
 				</div>
 				<div className="links container">
 					<a href="https://www.linkedin.com/in/Wilm-martin-220667104/">
