@@ -32,6 +32,13 @@ export class Bio extends React.Component {
 								My name is Wilm Martin, thank you for checking out my portfolio!
 							</p>
 							<p>
+								A quick note about my name: I'm currently in the process of
+								transitioning from the very clasically masculine 'william' to
+								the much more gender-neutral 'wilm' to reflect my identity as a
+								non-binary person. As a result, you may see both around the
+								internet - but I do prefer Wilm.
+							</p>
+							<p>
 								I've been writing HTML and CSS for my friends since around 2005,
 								back when {myspace} and {neopets} profiles were the ultimate
 								status symbols. Around that same time I was also getting into
