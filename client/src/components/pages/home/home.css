@@ -80,6 +80,8 @@ header.home {
 
 .text {
   flex-direction: column; }
+  .text.name {
+    align-items: flex-end; }
 
 h1.name {
   font-size: 64px;

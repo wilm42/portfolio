@@ -32,6 +32,9 @@ header.home {
 
 .text {
 	flex-direction: column;
+	&.name {
+		align-items: flex-end;
+	}
 }
 
 h1.name {

@@ -30,7 +30,7 @@ export class Contact extends React.Component {
 			name: this.state.name,
 			message: this.state.message,
 		};
-		fetch("https://formspree.io/contact@william.direct", {
+		fetch("https://formspree.io/contact@William.direct", {
 			method: "POST",
 			headers: {
 				"Content-Type": "application/json",
@@ -95,7 +95,7 @@ export class Contact extends React.Component {
 									id="message"
 									onChange={e => this.handleChange(e)}
 									value={this.state.message}
-									placeholder="Hi William, I'm an actual martian... from mars. We need to talk."
+									placeholder="Hi Wilm, I'm an actual martian... from mars. We need to talk."
 								/>
 							</label>
 						</div>
@@ -109,13 +109,13 @@ export class Contact extends React.Component {
 					<div className="contact second container">
 						<div className="contact direct container">
 							<div className="contact direct images container">
-								<a href="https://www.linkedin.com/in/william-martin-220667104/">
+								<a href="https://www.linkedin.com/in/William-martin-220667104/">
 									<img src="./assets/contact/li-logo.svg" />
 								</a>
 								<a href="https://github.com/wilm42">
 									<img src="./assets/contact/gh-logo.svg" />
 								</a>
-								<a href="mailto:hi@william.direct">
+								<a href="mailto:hi@Wilm.direct">
 									<img src="./assets/contact/email.svg" />
 								</a>
 							</div>

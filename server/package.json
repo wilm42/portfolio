@@ -1,20 +1,20 @@
 {
-  "name": "full-stack-template-server",
-  "version": "1.0.0",
-  "description": "Server portion of a full-stack starter template",
-  "main": "index.js",
-  "scripts": {
-    "start": "nodemon index.js"
-  },
-  "author": "William Martin",
-  "license": "MIT",
-  "devDependencies": {
-    "nodemon": "^1.11.0"
-  },
-  "dependencies": {
-    "express": "^4.15.4",
-    "passport": "^0.4.0",
-    "passport-google-oauth20": "^1.0.0",
-    "passport-http-bearer": "^1.0.1"
-  }
+	"name": "full-stack-template-server",
+	"version": "1.0.0",
+	"description": "Server portion of a full-stack starter template",
+	"main": "index.js",
+	"scripts": {
+		"start": "nodemon index.js"
+	},
+	"author": "Wilm Martin",
+	"license": "MIT",
+	"devDependencies": {
+		"nodemon": "^1.11.0"
+	},
+	"dependencies": {
+		"express": "^4.15.4",
+		"passport": "^0.4.0",
+		"passport-google-oauth20": "^1.0.0",
+		"passport-http-bearer": "^1.0.1"
+	}
 }

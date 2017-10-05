@@ -29,8 +29,7 @@ export class Bio extends React.Component {
 						<h2 className="bio greetings">Greetings,</h2>
 						<div className="bio paragraphs">
 							<p>
-								My (real / boring) name is William Martin, thank you for
-								checking out my portfolio!
+								My name is Wilm Martin, thank you for checking out my portfolio!
 							</p>
 							<p>
 								I've been writing HTML and CSS for my friends since around 2005,
