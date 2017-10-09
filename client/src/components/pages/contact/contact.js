@@ -95,7 +95,7 @@ export class Contact extends React.Component {
 									id="message"
 									onChange={e => this.handleChange(e)}
 									value={this.state.message}
-									placeholder="Hi Wilm, I'm an actual martian... from mars. We need to talk."
+									placeholder="Hi Wilm, I'm an actual martian... from Mars. We need to talk."
 								/>
 							</label>
 						</div>
@@ -109,13 +109,13 @@ export class Contact extends React.Component {
 					<div className="contact second container">
 						<div className="contact direct container">
 							<div className="contact direct images container">
-								<a href="https://www.linkedin.com/in/William-martin-220667104/">
+								<a href="https://www.linkedin.com/in/wilm42/">
 									<img src="./assets/contact/li-logo.svg" />
 								</a>
 								<a href="https://github.com/wilm42">
 									<img src="./assets/contact/gh-logo.svg" />
 								</a>
-								<a href="mailto:hi@Wilm.direct">
+								<a href="mailto:wilm@twobit.cc">
 									<img src="./assets/contact/email.svg" />
 								</a>
 							</div>

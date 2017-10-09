@@ -16,10 +16,10 @@ export class Footer extends React.Component {
 					<a href="https://nounproject.org">noun project</a>.
 				</div>
 				<div className="links container">
-					<a href="https://www.linkedin.com/in/Wilm-martin-220667104/">
+					<a href="https://www.linkedin.com/in/wilm42/">
 						<img src="./assets/footer/li-logo-footer.svg" alt="linkedIn" />
 					</a>
-					<a href="https://github.com/Wilm42">
+					<a href="https://github.com/wilm42">
 						<img src="./assets/footer/gh-logo-footer.svg" alt="gitHub" />
 					</a>
 				</div>
