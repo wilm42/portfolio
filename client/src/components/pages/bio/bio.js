@@ -33,8 +33,8 @@ export class Bio extends React.Component {
 							</p>
 							<p>
 								A quick note about my name: I'm currently in the process of
-								transitioning from the very clasically masculine 'william' to
-								the much more gender-neutral 'wilm' to reflect my identity as a
+								transitioning from the very classically masculine 'William' to
+								the much more gender-neutral 'Wilm' to reflect my identity as a
 								non-binary person. As a result, you may see both around the
 								internet - but I do prefer Wilm.
 							</p>
@@ -46,7 +46,7 @@ export class Bio extends React.Component {
 								local punk bands that I looked up to.
 							</p>
 							<p>
-								After highschool, I pursued a career in graphic design via the
+								After high school, I pursued a career in graphic design via the
 								screen printing industry for 5 years before rediscovering my
 								love of writing code while working at {danger} in Atlanta, GA.
 							</p>
@@ -65,7 +65,7 @@ export class Bio extends React.Component {
 							</p>
 							<p>
 								Are you an awesome person with a fun project? Of course you are.{" "}
-								{getInTouch}, and lets make something happen!
+								{getInTouch}, and let's make something happen!
 							</p>
 						</div>
 					</div>
