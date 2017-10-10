@@ -1,3 +1,6 @@
+// eslint-disable-next-line
+import React from "react";
+
 export const site = {
 	william: {
 		nameCap: "William",

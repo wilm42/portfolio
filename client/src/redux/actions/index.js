@@ -8,7 +8,3 @@ export const pageLoad = view => ({
 export const siteWilm = () => ({
 	type: refs.SITE_WILM,
 });
-
-export const siteWilliam = () => ({
-	type: refs.SITE_WILLIAM,
-});

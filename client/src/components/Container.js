@@ -1,5 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { connect } from "react-redux";
+import * as actions from "../redux/actions";
 
 import Stars from "./static/stars/stars";
 import Nav from "./static/nav/nav";
@@ -12,7 +14,14 @@ import Work from "./pages/work/work";
 import Projects from "./pages/projects/projects";
 import Footer from "./static/footer/footer";
 
-export default class Container extends React.Component {
+class Container extends React.Component {
+	componentWillMount() {
+		const url = window.location.href;
+		if (url.search(/wilm/g) > 0 || url.search(/localhost/g) > 0) {
+			// this.props.dispatch();
+		}
+	}
+
 	render() {
 		return (
 			<Router>
@@ -37,3 +46,5 @@ export default class Container extends React.Component {
 		);
 	}
 }
+
+export default connect()(Container);
