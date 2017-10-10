@@ -29,15 +29,12 @@ export class Bio extends React.Component {
 						<h2 className="bio greetings">Greetings,</h2>
 						<div className="bio paragraphs">
 							<p>
-								My name is Wilm Martin, thank you for checking out my portfolio!
+								My name is {this.props.site.nameCap} Martin, thank you for
+								checking out my portfolio!
 							</p>
-							<p>
-								A quick note about my name: I'm currently in the process of
-								transitioning from the very classically masculine 'William' to
-								the much more gender-neutral 'Wilm' to reflect my identity as a
-								non-binary person. As a result, you may see both around the
-								internet - but I do prefer Wilm.
-							</p>
+							{this.props.site.bioBlurb ? (
+								<p>{this.props.site.bioBlurb}</p>
+							) : null}
 							<p>
 								I've been writing HTML and CSS for my friends since around 2005,
 								back when {myspace} and {neopets} profiles were the ultimate
@@ -75,4 +72,8 @@ export class Bio extends React.Component {
 	}
 }
 
-export default connect()(Bio);
+const mapStateToProps = state => ({
+	site: state.site,
+});
+
+export default connect(mapStateToProps)(Bio);
