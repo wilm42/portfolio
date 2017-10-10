@@ -36,7 +36,6 @@ class Container extends React.Component {
 					<Route exact path="/bio" component={Bio} />
 					<Route exact path="/contact" component={Contact} />
 					<Route exact path="/tech" component={Tech} />
-					<Route exact path="/work" component={Work} />
 					<Route exact path="/projects" component={Projects} />
 
 					<Footer />
