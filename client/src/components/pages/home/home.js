@@ -25,7 +25,7 @@ export class Home extends React.Component {
 					</div>
 					<div className="text name container">
 						<h1 className="name">
-							<span className="thin">wilm </span>
+							<span className="thin">{this.props.site.nameLowr} </span>
 							<span className="bold">martian</span>
 						</h1>
 						<h2 className="tagline">
@@ -43,4 +43,8 @@ export class Home extends React.Component {
 	}
 }
 
-export default connect()(Home);
+const mapStateToProps = state => ({
+	site: state.site,
+});
+
+export default connect(mapStateToProps)(Home);

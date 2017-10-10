@@ -1,5 +1,5 @@
 import * as refs from "./actions/ref";
-import site from "./site";
+import * as site from "./site";
 
 const initialState = {
 	view: "home",

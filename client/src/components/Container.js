@@ -18,7 +18,7 @@ class Container extends React.Component {
 	componentWillMount() {
 		const url = window.location.href;
 		if (url.search(/wilm/g) > 0 || url.search(/localhost/g) > 0) {
-			// this.props.dispatch();
+			this.props.dispatch(actions.siteWilm());
 		}
 	}
 
