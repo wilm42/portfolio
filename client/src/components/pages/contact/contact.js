@@ -95,7 +95,7 @@ export class Contact extends React.Component {
 									id="message"
 									onChange={e => this.handleChange(e)}
 									value={this.state.message}
-									placeholder="Hi Wilm, I'm an actual martian... from Mars. We need to talk."
+									placeholder="Hi, I'm an actual martian... from Mars. We need to talk."
 								/>
 							</label>
 						</div>
@@ -115,7 +115,7 @@ export class Contact extends React.Component {
 								<a href="https://github.com/wilm42">
 									<img src="./assets/contact/gh-logo.svg" />
 								</a>
-								<a href="mailto:wilm@twobit.cc">
+								<a href={this.props.site.email}>
 									<img src="./assets/contact/email.svg" />
 								</a>
 							</div>
@@ -161,4 +161,8 @@ export class Contact extends React.Component {
 	}
 }
 
-export default connect()(Contact);
+const mapStateToProps = state => ({
+	site: state.site,
+});
+
+export default connect(mapStateToProps)(Contact);
