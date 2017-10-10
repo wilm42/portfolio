@@ -10,7 +10,6 @@ import Skills from "./pages/skills/skills";
 import Bio from "./pages/bio/bio";
 import Contact from "./pages/contact/contact";
 import Tech from "./pages/tech/tech";
-import Work from "./pages/work/work";
 import Projects from "./pages/projects/projects";
 import Footer from "./static/footer/footer";
 
