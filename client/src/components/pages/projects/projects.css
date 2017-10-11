@@ -78,7 +78,8 @@
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 110%; }
+  height: 110%;
+  visibility: hidden; }
 
 .mockup {
   transition: 0.2s ease-out;
