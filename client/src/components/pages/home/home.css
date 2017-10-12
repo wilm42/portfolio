@@ -145,6 +145,7 @@ h2.tagline {
     width: 80vw;
     height: auto; }
   .grid {
+    margin-top: 10%;
     width: fit-content;
     height: 100vw; }
   .gridNav {
@@ -156,7 +157,7 @@ h2.tagline {
     flex-direction: column-reverse;
     box-sizing: border-box;
     width: 80vw;
-    height: 23vh; }
+    height: 10vh; }
     header.home img {
       margin-top: -2%;
       height: 10vw;
