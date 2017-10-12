@@ -40,8 +40,12 @@ p.skill {
 	main.skills {
 		width: 80vw;
 	}
+	.design {
+		animation: fakeScroll 1s 0.25s;
+	}
 	.develop {
 		margin-top: 0px;
+		animation: none;
 	}
 	.cards {
 		box-sizing: border-box;
