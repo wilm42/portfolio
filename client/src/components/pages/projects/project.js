@@ -1,9 +1,12 @@
 import React from "react";
 
+import Loader from "./loader/loader";
+
 export default class Project extends React.Component {
 	render() {
 		return (
 			<div className="project-grid">
+				<Loader />
 				<a
 					className="project-anchor"
 					name={this.props.data.title.split(" ").join("")}

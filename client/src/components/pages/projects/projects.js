@@ -4,6 +4,7 @@ import * as actions from "../../../redux/actions";
 
 import Header from "../../static/header/header";
 import Project from "./project";
+import Loader from "./loader/loader";
 
 import * as projectsData from "./projects-data";
 

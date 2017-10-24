@@ -1,0 +1,9 @@
+@keyframes loaderUfo {
+	50% {
+		transition: 0.2s ease-out;
+		transform: translateY(1px);
+	}
+	90% {
+		transform: translateY(-1px) rotate(360deg);
+	}
+}
