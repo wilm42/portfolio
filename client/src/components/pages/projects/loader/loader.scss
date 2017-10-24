@@ -36,3 +36,18 @@ img.loaderUfo {
 	margin: auto;
 	animation: loaderUfo 2s infinite;
 }
+
+.loaderClose {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	background: rgba(0, 0, 0, 0);
+	font-family: "Comfortaa", cursive;
+	color: white;
+	border: none;
+	font-size: 20px;
+	font-weight: 700;
+	&:hover {
+		cursor: pointer;
+	}
+}

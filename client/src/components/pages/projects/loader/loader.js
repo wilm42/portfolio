@@ -44,6 +44,9 @@ export default class Loader extends React.Component {
 		const { loaderText, loaderIndex } = this.state;
 		return (
 			<div className="loader">
+				<button className="loaderClose" onClick={e => this.props.close()}>
+					X
+				</button>
 				<h2 className="loaderText">{loaderText[loaderIndex]}</h2>
 				<span className="loading">
 					loading<span className="loaderDots">...</span>

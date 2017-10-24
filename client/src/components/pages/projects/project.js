@@ -3,10 +3,23 @@ import React from "react";
 import Loader from "./loader/loader";
 
 export default class Project extends React.Component {
+	constructor(props) {
+		super(props);
+		this.state = { loading: false };
+	}
+
+	herokuLoad() {
+		this.setState({ loading: true });
+	}
+
+	loaderClose() {
+		this.setState({ loading: false });
+	}
+
 	render() {
 		return (
 			<div className="project-grid">
-				<Loader />
+				{this.state.loading ? <Loader close={e => this.loaderClose()} /> : null}
 				<a
 					className="project-anchor"
 					name={this.props.data.title.split(" ").join("")}
@@ -47,7 +60,9 @@ export default class Project extends React.Component {
 				)}
 				<div className="project-links">
 					<div>
-						<a href={this.props.data.live}>live demo</a>
+						<a href={this.props.data.live} onClick={e => this.herokuLoad()}>
+							live demo
+						</a>
 					</div>
 					<div className="sep"> | </div>
 					<div>
