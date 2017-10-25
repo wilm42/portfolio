@@ -63,7 +63,7 @@ export const projects = [
 			{ text: "MongoDB", logo: "./assets/tech-logos/mongodb-notext.svg" },
 		],
 		description: [
-			"devCupid is a project designed to help developers and other folks in the tech word find one another in order to create a team for open-source passion projects",
+			"devCupid is a project designed to help developers and other folks in the tech world find one another in order to create a team for open-source passion projects.",
 			"I like to think of it as a layer on top of GitHub where you're able to search for members based on languages, interests, and skillsets - then contact them directly so that you can build something together.",
 			"My responsibilities on this project were focused on the front-end and product design aspects, and I spent the vast majority of my time building out the onboarding flow for new members. I wanted to try something a bit quirky, as you can see from the the onboarding flow and general layout & color scheme of the app.",
 			"The initial idea was a lot more ambitious than the MVP you see here - we wanted to include personality matching based on the Big-5 Personality Traits, and have a robust team system that included real-time chat. However, the timeline only allowed for 3 weeks and our 4 person team just couldn't get to all of the features we wanted.",
