@@ -23,7 +23,7 @@ export class Tech extends React.Component {
 							<div className="row">
 								<div className="logo">
 									<img
-										src="./assets/tech-logos/sass.svg"
+										src="./assets/tech-logos/sass-shadow.svg"
 										style={{ animationDelay: ".1s" }}
 									/>
 								</div>
@@ -41,7 +41,7 @@ export class Tech extends React.Component {
 								</div>
 								<div className="logo">
 									<img
-										src="./assets/tech-logos/firebase.svg"
+										src="./assets/tech-logos/firebase-shadow.svg"
 										style={{ animationDelay: ".4s" }}
 									/>
 								</div>
